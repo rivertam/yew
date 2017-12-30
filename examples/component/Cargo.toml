@@ -1,0 +1,7 @@
+[package]
+name = "component"
+version = "0.1.0"
+authors = ["Ben Berman <ben@standardbots.com>"]
+
+[dependencies]
+yew = { path = "../.." }

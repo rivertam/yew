@@ -10,4 +10,4 @@ pub mod macros;
 pub mod html;
 pub mod services;
 pub mod virtual_dom;
-
+pub mod component;

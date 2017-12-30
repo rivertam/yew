@@ -155,9 +155,7 @@ impl<MSG> VTag<MSG> {
             (&None, None) => None,
         }
     }
-}
 
-impl<MSG> VTag<MSG> {
     pub fn render(&mut self, subject: &Element, mut opposite: Option<Self>, messages: Messages<MSG>) {
         // TODO Replace self if tagName differs
 

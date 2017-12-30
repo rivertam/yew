@@ -2,7 +2,7 @@ use virtual_dom::{VTag, VNode, Listener};
 
 #[macro_export]
 macro_rules! html_impl {
-    // Start of openging tag
+    // Start of opening tag
     ($stack:ident (< $starttag:ident $($tail:tt)*)) => {
         let node = $crate::virtual_dom::VTag::new(stringify!($starttag));
         $stack.push(node);
